@@ -9,7 +9,7 @@
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
 
-Uma landing page moderna e responsiva para um e-commerce de calçados esportivos, desenvolvida com **React**, **TypeScript** e **Vite**.
+> Uma landing page moderna e responsiva para um e-commerce de calçados esportivos, desenvolvida com **React**, **TypeScript** e **Vite**.
 
 ## 🚀 Sobre o Projeto
 

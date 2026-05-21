@@ -11,11 +11,13 @@
 
 > Uma landing page moderna e responsiva para um e-commerce de calçados esportivos, desenvolvida com **React**, **TypeScript** e **Vite**.
 
+
 ## 🔗 Acesse o projeto
 
 **[→ Ver site ao vivo](https://matheus-larre.github.io/Stepup-Ecommerce/)**
 
 ---
+
 
 ## 🚀 Sobre o Projeto
 

@@ -1,73 +1,57 @@
-# React + TypeScript + Vite
+# Stepup-Ecommerce 👟
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma landing page moderna e responsiva para um e-commerce de calçados esportivos, desenvolvida com **React**, **TypeScript** e **Vite**.
 
-Currently, two official plugins are available:
+## 🚀 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O **Stepup-Ecommerce** foi criado para oferecer uma experiência de compra fluida e visualmente atraente. O foco principal é a performance e a usabilidade, apresentando coleções de calçados com um design clean e interativo.
 
-## React Compiler
+### ✨ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Design Responsivo:** Adaptado para dispositivos móveis, tablets e desktops.
+- **Carrinho Lateral:** Gerenciamento de produtos com visualização dinâmica.
+- **Seção de Produtos:** Exibição de catálogo com filtros e detalhes.
+- **Depoimentos:** Prova social de clientes satisfeitos.
+- **FAQ:** Seção de perguntas frequentes para suporte ao usuário.
+- **Banner Promocional:** Destaque para ofertas especiais.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React 19:** Biblioteca principal para a interface.
+- **TypeScript:** Tipagem estática para maior segurança e produtividade.
+- **Vite:** Ferramenta de build ultra-rápida.
+- **CSS3:** Estilização personalizada e moderna.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📦 Como rodar o projeto localmente
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Siga os passos abaixo para configurar o ambiente de desenvolvimento:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/matheus-larre/Stepup-Ecommerce.git
+   ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. **Entre na pasta do projeto:**
+   ```bash
+   cd Stepup-Ecommerce
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+3. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+4. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Acesse no navegador:**
+   `http://localhost:5173`
+
+## 🌐 Deploy
+
+O projeto está configurado para deploy automático no **GitHub Pages** via GitHub Actions. Toda vez que um novo código é enviado para a branch `main`, o site é atualizado automaticamente.
+
+---
+Desenvolvido por [Matheus Larré](https://github.com/matheus-larre)

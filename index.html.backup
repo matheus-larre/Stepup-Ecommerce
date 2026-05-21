@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StepUp - Loja de Calçados</title>
+    <!-- Fonte moderna (Inter) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#home">StepUp</a>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#categorias">Categorias</a></li>
+                    <li><a href="#promocoes" class="highlight">Promoções</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button class="btn btn-outline">Login</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section (Destaque Principal) -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <h1>O seu próximo passo começa aqui.</h1>
+                <p>Descubra as novas coleções de calçados com design exclusivo, conforto inigualável e estilo para todos os momentos.</p>
+                <div class="hero-buttons">
+                    <a href="#produtos" class="btn btn-primary">Ver Coleção</a>
+                    <a href="#categorias" class="btn btn-secondary">Explorar</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categorias -->
+        <section id="categorias" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Para todos os estilos</h2>
+                <div class="grid grid-3">
+                    <div class="category-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600&q=80');">
+                        <h3>Masculino</h3>
+                        <a href="#produtos">Comprar agora</a>
+                    </div>
+                    <div class="category-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80');">
+                        <h3>Feminino</h3>
+                        <a href="#produtos">Comprar agora</a>
+                    </div>
+                    <div class="category-card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=600&q=80');">
+                        <h3>Infantil</h3>
+                        <a href="#produtos">Comprar agora</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Produtos Destaque -->
+        <section id="produtos" class="section">
+            <div class="container">
+                <h2 class="section-title">Destaques da Semana</h2>
+                <div class="grid grid-4">
+                    <!-- Produto 1 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80" alt="Tênis Esportivo">
+                            <span class="badge promo">Novo</span>
+                        </div>
+                        <div class="product-info">
+                            <h4>Sneaker Red Velocity</h4>
+                            <p class="category">Esportivo</p>
+                            <div class="price">
+                                <span class="current">R$ 299,90</span>
+                            </div>
+                            <button class="btn btn-block btn-primary">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <!-- Produto 2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=400&q=80" alt="Sapato Casual">
+                        </div>
+                        <div class="product-info">
+                            <h4>Urban Classic Low</h4>
+                            <p class="category">Casual Masculino</p>
+                            <div class="price">
+                                <span class="current">R$ 189,90</span>
+                            </div>
+                            <button class="btn btn-block btn-primary">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <!-- Produto 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&q=80" alt="Tênis Feminino">
+                            <span class="badge discount">-20%</span>
+                        </div>
+                        <div class="product-info">
+                            <h4>RunTech Air</h4>
+                            <p class="category">Corrida Feminino</p>
+                            <div class="price">
+                                <span class="old">R$ 399,90</span>
+                                <span class="current">R$ 319,90</span>
+                            </div>
+                            <button class="btn btn-block btn-primary">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                    <!-- Produto 4 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=400&q=80" alt="Vans">
+                        </div>
+                        <div class="product-info">
+                            <h4>Skate Retro Hi</h4>
+                            <p class="category">Unissex</p>
+                            <div class="price">
+                                <span class="current">R$ 249,90</span>
+                            </div>
+                            <button class="btn btn-block btn-primary">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter / Promo Banner -->
+        <section id="promocoes" class="promo-banner">
+            <div class="container banner-content">
+                <h2>Descontos de até 50%</h2>
+                <p>Assine nossa newsletter e ganhe 15% OFF na sua primeira compra.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Inscrito com sucesso!');">
+                    <input type="email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit" class="btn btn-primary">Inscrever-se</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>StepUp</h3>
+                <p>O conforto que os seus pés merecem, com o estilo que você procura.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#categorias">Categorias</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Atendimento</h4>
+                <ul>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Trocas e Devoluções</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 StepUp Calçados. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -4,7 +4,7 @@ Uma landing page moderna e responsiva para um e-commerce de calçados esportivos
 
 ## 🚀 Sobre o Projeto
 
-O **Stepup-Ecommerce** foi criado para oferecer uma experiência de compra fluida e visualmente atraente. O foco principal é a performance e a usabilidade, apresentando coleções de calçados com um design clean e interativo.
+O **Stepup-Ecommerce** foi criado como parte dos meus estudos de desenvolvimento frontend, focando na prática de **React** e **TypeScript**. O objetivo foi construir uma experiência de compra fluida e visualmente atraente, apresentando coleções de calçados com um design clean e interativo.
 
 ### ✨ Funcionalidades
 
